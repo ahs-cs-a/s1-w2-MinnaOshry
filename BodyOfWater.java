@@ -10,9 +10,24 @@ public class BodyOfWater {
         aveDepth = d;
         isSaltWater = s;
     }
-
+    public BodyOfWater(String n,  int d){
+        name = n;
+        aveDepth = d;
+    
+    }
+    public void setName(String n){
+        name = n;
+    }
+    public void setlargestDiameter(){
+        System.out.println("The largest diameter is: " + largestDiameter);
+    }
     public void name(){
         System.out.println("My name is: " + name );
+    }
+    public void printState(){
+        System.out.println("My name is: " + name );
+        System.out.println("The largest diameter is: " + largestDiameter);
+
     }
 
     public void largestDiameter(){
