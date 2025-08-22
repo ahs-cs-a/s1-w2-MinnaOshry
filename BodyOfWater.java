@@ -18,4 +18,12 @@ public class BodyOfWater {
     public void largestDiameter(){
         System.out.println("The largest diameter is: " + largestDiameter);
     }
+
+    public void aveDepth(){
+        System.out.println("the average depth is: " + aveDepth);
+    }
+
+    public void isSaltWater(){
+        System.out.println("is it salt water? :" + isSaltWater);
+    }
 }
