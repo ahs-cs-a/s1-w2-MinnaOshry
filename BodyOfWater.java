@@ -18,8 +18,8 @@ public class BodyOfWater {
     public void setName(String n){
         name = n;
     }
-    public void setlargestDiameter(){
-        System.out.println("The largest diameter is: " + largestDiameter);
+    public void setlargestDiameter(int l){
+        largestDiameter = l;
     }
     public void name(){
         System.out.println("My name is: " + name );
